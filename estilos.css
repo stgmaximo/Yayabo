@@ -1,0 +1,74 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece un fondo y color de texto para el cuerpo de la página */
+body {
+    background-color: #222831; /* Color de fondo gris oscuro */
+    color: #000000; /* Color de texto blanco */
+    font-family: Arial, sans-serif; /* Tipo de letra predeterminado */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #000000; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    text-align: left;
+    padding: 40px;
+
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #222831; /* Color de fondo gris oscuro */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 30px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco en los enlaces */
+    font-weight: bold; /* Añade negrita para resaltar los enlaces */
+    font-size: 14px; /* Tamaño del texto más pequeño */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse sobre él */
+}
+
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff; /* Color de fondo blanco */
+    border: 1px solid #ccc; /* Borde delgado gris */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333; /* Color de fondo gris oscuro */
+    color: #fff; /* Color de texto blanco */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Agrega estilos adicionales según sea necesario */
+#section1 {
+    font-weight: bold; /* Hace las letras más gruesas (negrecidas) */
+    text-align: center; /* Centra el texto */
+    /* Otros estilos según sea necesario */
+}
