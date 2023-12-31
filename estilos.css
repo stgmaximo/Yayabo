@@ -54,8 +54,11 @@ nav a:hover {
 section {
     padding: 20px;
     margin: 10px;
-    background-color: #fff; /* Color de fondo blanco */
+    background-color: #222831; /* Color de gris oscuro */
     border: 1px solid #ccc; /* Borde delgado gris */
+    color: white;
+    clear: both;
+    font-size: 19px;
 }
 
 /* Estilo para el pie de página */
@@ -68,7 +71,22 @@ footer {
 
 /* Agrega estilos adicionales según sea necesario */
 #section1 {
-    font-weight: bold; /* Hace las letras más gruesas (negrecidas) */
-    text-align: center; /* Centra el texto */
-    /* Otros estilos según sea necesario */
+    padding: 40px;
+    margin: 40px;
+    background-color: #222831; /* Color de gris oscuro */
+    border: 0px solid #ccc; /* Borde delgado gris */
+    color: white;
+
+    /* Ajusta el ancho al 50% del contenedor */
+    width: 50%;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    float: left; /* Hace que las secciones se coloquen una al lado de la otra */
+}
+
+#resumen {
+  /* Establece el tamaño de letra más pequeño */
+  font-size: 14px;
+
+  /* Cambia el tipo de letra */
+  font-family: 'Arial', sans-serif; /* Puedes cambiar 'Arial' por el tipo de letra que prefieras */
 }
